@@ -16,7 +16,7 @@ The maximum video size can be up-to 18,000 PentaBytes.
 
         	The .andx file format starts header followed by ‘n’ number of frames.Fig. 2.1 shows AnDx file format.
 
-![andx file format](https://github.com/thisIsAnil/Andx-file_format/blob/master/images/image11.png)
+![andx file format](https://github.com/thisIsAnil/Andx-file_extension/blob/master/images/image11.png)
 
                      Fig. 2.1 AnDx File Format
 
@@ -36,7 +36,7 @@ The maximum video size can be up-to 18,000 PentaBytes.
 
 		The header format is shown in fig 2.2.
 
-![header format image](https://github.com/thisIsAnil/Andx-file_format/blob/master/images/image24.png)
+![header format image](https://github.com/thisIsAnil/Andx-file_extension/blob/master/images/image24.png)
 
 
 			Figure 2.2 AnDx Frame format 
@@ -52,7 +52,7 @@ The maximum video size can be up-to 18,000 PentaBytes.
 **End of frame data	:**	This indicate end of actual data.
 **End of frame		:**	This indicates end of frame/page.
 
-![frame format image](https://github.com/thisIsAnil/Andx-file_format/blob/master/images/image25.png)
+![frame format image](https://github.com/thisIsAnil/Andx-file_extension/blob/master/images/image25.png)
 
 				Figure 2.3 AnDx Frame header
 
@@ -63,7 +63,7 @@ The maximum video size can be up-to 18,000 PentaBytes.
  file sequentially.The Figure 2.4 show the architecture of AnDx Encoder.	
 
 	
-![encoder image](https://github.com/thisIsAnil/Andx-file_format/blob/master/images/image12.png)
+![encoder image](https://github.com/thisIsAnil/Andx-file_extension/blob/master/images/image12.png)
 
 			Figure 2.4 AnDx Encoder Architecture.
 
@@ -71,6 +71,6 @@ The maximum video size can be up-to 18,000 PentaBytes.
 
 The AnDx decoder is given an input file.It decodes this file into set of frames. Each frame is then rasterized on screen later.The Figure 4.2.5 shows AnDx Decoder.
 
-![decoder image](https://github.com/thisIsAnil/Andx-file_format/blob/master/images/image13.png)
+![decoder image](https://github.com/thisIsAnil/Andx-file_extension/blob/master/images/image13.png)
 
  			Figure 2.5 PCX Decoder Architecture.
